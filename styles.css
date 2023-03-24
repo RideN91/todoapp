@@ -1,0 +1,85 @@
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px #c0dedf;
+}
+
+body #container {
+  width: 380px;
+  height: 73%;
+  position: relative;
+  color: #e1b1b1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border: #c0dedf solid;
+  border-radius: 10px;
+  border-width: 3px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body #date_time {
+  color: #babff2;
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #babff2;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color:#bfe4d3;
+  font-size: 24px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  border-bottom: 1px #e1b1b1;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #e1b1b1;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: #bfe4d3;
+  color: white;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  border-bottom: 1px #e1b1b1;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  caret-color: #bfe4d3;
+  color:#e1b1b1;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  opacity: 0.75;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+input::placeholder {
+  color:#e1b1b1;
+  opacity: 1;
+}
